@@ -31,7 +31,7 @@
       if(move_uploaded_file($_FILES["productImage"]["tmp_name"], $target_file)) {
         $sql = "INSERT INTO upload SET image='$productImageName', product_name='$product_name', price='$price'";
         if(mysqli_query($conn, $sql)){
-            header("Location: shop.php");
+            header("Location: products.php");
           $msg = "Image uploaded and saved in the Database";
           $msg_class = "alert-success";
         } else {

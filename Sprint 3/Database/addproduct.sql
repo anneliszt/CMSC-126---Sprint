@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 04, 2022 at 05:13 AM
+-- Generation Time: Jun 04, 2022 at 05:23 AM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.5
 
@@ -33,11 +33,11 @@ CREATE TABLE `upload` (
 --
 
 INSERT INTO `upload` (`id`, `image`, `product_name`, `price`) VALUES
-(59, '1654240884-1.png', 'Meiji Matcha', 150),
-(61, '1654240938-8.png', 'Glico Crackers', 90),
-(64, '1654269327-5.png', 'Pocky Chocolate', 90),
 (68, '1654309367-7.png', 'Pocky Matcha', 90),
-(69, '1654309487-11.png', 'Miso Ramen', 120);
+(69, '1654309487-11.png', 'Miso Ramen', 120),
+(71, '1654312920-6.png', 'Banana Treats', 1000),
+(72, '1654312978-8.png', 'Glico Crackers', 80),
+(73, '1654312997-1.png', 'Meiji Matcha', 70);
 
 --
 -- Indexes for dumped tables
@@ -57,5 +57,5 @@ ALTER TABLE `upload`
 -- AUTO_INCREMENT for table `upload`
 --
 ALTER TABLE `upload`
-  MODIFY `id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=70;
+  MODIFY `id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=74;
 COMMIT;
