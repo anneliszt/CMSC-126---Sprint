@@ -13,13 +13,6 @@
   --teal: #3bba9a;
 }
 
-/* Header image */
-.header-image {
-  max-width: 100%;
-  height: auto;
-  display:block;
-}
-
 html {
   font-size: 62.5%;
   font-family: 'Poppins', sans-serif;
@@ -34,19 +27,27 @@ a {
   text-decoration: none;
 }
 
+/* Header image */
+
+.header-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 /* Navbar/Header */
+
+.header{
+  background-color: var(--backgroundColor);
+  position: sticky;
+  top: 0;
+}
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem;
-}
-
-.header{
-  background-color: var(--backgroundColor);
-  position: sticky;
-  top: 0;
 }
 
 .nav-menu {

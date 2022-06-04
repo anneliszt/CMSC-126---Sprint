@@ -75,43 +75,15 @@ a {
   box-shadow: 1px 2px 5px;
 }
 
-/* Add new products form */
-button {
-  font-family: 'Poppins', sans-serif;
-  color: var(--textColor);
-  background-color: var(--backgroundColor);
-  padding: 3px;
-  border-radius: 10px;
-  border: solid;
-  border-color: #a5222d44;
+.delivery img {
+  max-width: 500px;
 }
 
-button:hover {
-  cursor: pointer;
-  background-color: var(--orange);
-}
-
-.add-title {
-  font-size: 60px;
-  color: var(--backgroundColor);
+.separator {
+  margin-top: 50px;
   display: flex;
   justify-content: center;
-}
-
-.form-group {
-  display: flex;
-  justify-content: flex-end;
-  margin: 10px;
-  gap: 15px;
-}
-
-.form-group label{
-  color: var(--backgroundColor);
-  font-size: 30px;
-}
-
-.form-group button{
-  margin-right: 25px;
+  gap:80px;
 }
 
 /* View products */
@@ -138,6 +110,24 @@ button:hover {
   margin-left: 50px;
 }
 
+/* Form */
+
+.form-group {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
+  gap: 15px;
+}
+
+.form-group label{
+  color: var(--backgroundColor);
+  font-size: 30px;
+}
+
+.form-group button{
+  margin-right: 25px;
+}
+
 .img-div {
   display: flex;
   justify-content: center;
@@ -150,15 +140,27 @@ button:hover {
   max-width: 150px;
 }
 
-.delivery img {
-  max-width: 500px;
+/* Add new products form */
+button {
+  font-family: 'Poppins', sans-serif;
+  color: var(--textColor);
+  background-color: var(--backgroundColor);
+  padding: 3px;
+  border-radius: 10px;
+  border: solid;
+  border-color: #a5222d44;
 }
 
-.separator {
-  margin-top: 50px;
+button:hover {
+  cursor: pointer;
+  background-color: var(--orange);
+}
+
+.add-title {
+  font-size: 60px;
+  color: var(--backgroundColor);
   display: flex;
   justify-content: center;
-  gap:80px;
 }
 
 /* Footer */
