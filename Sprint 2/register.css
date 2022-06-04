@@ -19,18 +19,6 @@
     --teal: #448c6c;
   }
   
-  .header {
-    margin: auto;
-    width: 30%;
-    color: white;
-    background: var(--backgroundColor);
-    text-align: center;
-    border: 1px solid #B0C4DE;
-    border-bottom: none;
-    border-radius: 10px 10px 0px 0px;
-    padding: 20px;
-  }
-  
 /* Displays logo */
   .konbini-logo img{
     max-width: 100px;
@@ -44,6 +32,18 @@
   }
 
 /* Registration form */
+
+.header {
+  margin: auto;
+  width: 30%;
+  color: white;
+  background: var(--backgroundColor);
+  text-align: center;
+  border: 1px solid #B0C4DE;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+}
 
   form, .content {
     width: 30%;
