@@ -203,6 +203,10 @@ a {
   margin-bottom: 20px;
 }
 
+.faq-body p {
+  font-size: 13px;
+}
+
 .active,
 .faq-page:hover {
   background-color: #F9F9F9;

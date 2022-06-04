@@ -214,6 +214,11 @@ a {
   display: none;
   overflow: hidden;
 }
+
+.faq-body p {
+  font-size: 13px;
+}
+
 .faq-page:after {
   content: '\02795';
   font-size: 13px;
