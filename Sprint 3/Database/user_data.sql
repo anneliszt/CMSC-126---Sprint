@@ -7,13 +7,18 @@
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.5
 
+--
+-- Database: `user_data`
+--
+
+DROP DATABASE IF EXISTS `user_data`;
+
+CREATE DATABASE `user_data`;
+
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
 
---
--- Database: `user_data`
---
 
 -- --------------------------------------------------------
 
